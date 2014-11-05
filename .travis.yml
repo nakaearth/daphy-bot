@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: JplpWigW0k/lLGOe1+jdK0o0Hc35S5lewbSCkGTU/qqiAcO7OiQgxDsTSIZAfVV1UxAGiipvSxTy1/fp7H45eGN7KrNYLR8jJguY6sSbGpJZL5QEv310eGYsm0UsgO8WE/cpH6gy1AOOdRXTlHHDikVc4YywWxPlwW8lPbg271c=
+  app: daphy-bot
+  on:
+    repo: nakaearth/daphy-bot
